@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Performance Tire</title>
+        <style>
+        body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+    margin-left: 45%;
+   /* float: left;*/
+    
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	/*border-right: 2px solid pink;*/
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+    z-index: 1;
+}
+
+#montre {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: /*width 1s, height 1s;*/ all 3s;   /*vitesse du mouvement */
+        
+	border-radius: 5%;
+}
+body  { /** @ Media Queries **/
+                     /** background-color: #000; **/
+                     width: 1024px;
+                     /**background-image: url("./images/tire_performance_bkg.jpeg");**/
+                     /**height: 700px;**/
+                     }
+#montre:hover {
+	transform:scale(2.1) /*scale(1.1)*/;
+        z-index : 1;
+}
+ #montre1 {
+                      /*text-align: left;*/
+                    /* margin-bottom: 50%;*/
+                     margin-left: 4%;
+                    /**display: flex;
+                     justify-content : space-around; **/
+                    }
+ #montre1 a{
+                     margin-left:2%; 
+                     color: seashell;
+                     font-family: Arial;
+                     font-size: 15px;  
+                     text-decoration: none;  
+                     /**padding: 20px; **/
+                    }
+  header{ /** @ Media Queries **/
+                     /*display: flex;
+	                 flex-wrap: wrap;**/
+                     background-color: #000;
+                     width: 1920px;
+                     position: fixed;
+                     z-index: 1;
+                     /**height: 700px;**/
+                     /*margin-bottom: 25%;*/
+                     }
+#pos{
+                margin-top: 10%;
+                
+            }
+ pos1{
+                margin-top: 15%;
+                margin-left: 25%;
+            }
+        </style>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<body>
+<!--<p id="pos1">Test</p>-->
+<div class="container">
+ <header>
+   <span id="montre1"><img src="./images/performance_tire.jpeg" title="Your Bakery" width="500" height="175px"></span>
+   <span id="montre1"><a href="#"> <img src="./images/Header/home.jpg" width="85" height="40" title="Homepage"></a> 
+   <a href="#montre1">TIRES</a><a href="#submain5">MECHANIC</a><a href="junkcar.html">JUNK CARS</a><a href="#submain10">CONTACT</a>
+   <a href="#montre1"> <img src="./images/Header/panier.jpg" width="25" height="25" title="Check out"></a>
+   <a href="#montre1"> <img src="./images/Header/user.jpg" width="25" height="25" title="User account"></a>
+   </span>
+  </header> 
+      <p></p>
+      <br>
+      <img src="./images/tire_performance_bkg.jpeg" title="Performace Tire" width="1024px" height="768px" id="pos">
+  <!--</div> -->
+      <!--<div class="container">-->
+            <p>
+            <a href="https://api.whatsapp.com/send?phone=237695687792"><img src="./images/Logo/whatsapp.jpg" title="Contactez nous sur whatsapp" style="width:100px;height:60px;"></a>
+            <a href="#"><img src="./images/Logo/google.png" title="Google link" style="width:100px;height:60px;"></a>
+            <a href="#"><img src="./images/Logo/facebook.png" title="Our facebook page" style="width:100px;height:60px;"></a>
+            <a href="#"><img src="./images/Logo/pinterest.png" title="Google link" style="width:100px;height:60px;"></a>
+        </p>
+	</div>
+    <div id="pos1">
+ <p>Test</p> 
+</div>
+</body>
+</html>
