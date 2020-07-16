@@ -18,7 +18,7 @@
 
 h1 {
 	font-family: fantasy;
-	font-size: 3em;
+	font-size: 2em;
 	border-bottom: 2px solid pink;
 	/*border-right: 2px solid pink;*/
 	width: 400px;
@@ -30,11 +30,12 @@ h1 {
 	box-shadow: 4px 4px 5px #888888;
 	margin-top: 10px;
     z-index: 1;
+    color: #d9f906;
 }
 
 #montre {
-	width: 600px;
-	height: 400px;
+	width: 135px;
+	height: 100px;
 	margin: 10px;
 	transition: /*width 1s, height 1s;*/ all 3s;   /*vitesse du mouvement */
         
@@ -102,7 +103,7 @@ body  { /** @ Media Queries **/
   }
 }
 
-h1, h2, h3 {
+h2, h3 {
   font-family: monospace;
   text-align: center;
 }
@@ -199,8 +200,6 @@ figure {
      }
 #demo{
       color: #d9f906;
-      text-decoration: none;
-      font-family: 'Bad Script', cursive; 
             }
 #demo1{
        color: #d9f906;
@@ -209,8 +208,9 @@ figure {
 #demo2{
        font-family: 'Bad Script', cursive;          
        color: #d9f906;
+       text-decoration: none;         
             }
-#demo2 a:link {
+#demo2 a:link{
        font-family: 'Bad Script', cursive;         
        color: #d9f906;
        text-decoration: none;         
@@ -338,7 +338,7 @@ img{    /* define the border of the image */
     </header>
 <div class="container">
      <section class="left">
-      <h2><a href="#"><span id="demo2">HOME</span></a></h2>
+      <h2><a href="index.html"><span id="demo2">HOME</span></a></h2>
         <br>
         <nav class="navigation">
   <ul class="mainmenu">
@@ -351,7 +351,7 @@ img{    /* define the border of the image */
       </ul>
     </li>
       <li><a href="#"><span class="typ1"><b class="typ1">Body Repair</b></span></a></li> <!-- use class "select" when the page is loaded-->
-      <li><a href="junk_cars.html"><span class="typ1"><b class="typ1">Junk Cars</b></span></a></li>
+      <li><a href="#"><span class="typ1"><b class="typ1">Junk Cars</b></span></a></li>
       <!--<li><a href="#"><span class="typ1"><b class="select">Junk Cars</b></span></a></li>-->
       <!--<li><a href="#"><figure>
              <span class="align"> <img src="./images/github_pict.png" Title="my github page" width="53" height="58" >
@@ -370,14 +370,20 @@ Practice Best practices, a web page must have the same rendering in every web na
 Always high motivated, looking for new challenges. Self learner.
     </div> -->
     <section class="right">
-        <p id="demo"></p>
-        <script>
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
-      <!--<h2>OUR JUNK CARS</h2>-->
-      <img src="./images/tire_performance_bkg.jpeg" Title="Performance Tire" width="525px" height="725px" >
-     </section>
+       <h1>Junk cars</h1>
+        <div class="container">
+        <img src="./images/Cars/car1.jpg" id="montre">
+        <img src="./images/Cars/car2.jpg" id="montre">
+        <img src="./images/Cars/car3.jpg" id="montre">
+        <img src="./images/Cars/car4.jpg" id="montre">
+		<img src="./images/Cars/car6.jpg" id="montre">
+		<img src="./images/Cars/car3.jpg" id="montre">
+		<img src="./images/Cars/car5.jpg" id="montre">
+		<img src="./images/Cars/car8.jpg" id="montre">
+		<img src="./images/Cars/car9.jpg" id="montre">
+		<img src="./images/Cars/car10.jpg" id="montre">
+        </div> 
+       </section>
       <footer>
       <br><br><br><br>
      <u id="demo1">&copy;Performance Tire 2020</u>
